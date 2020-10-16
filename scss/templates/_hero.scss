@@ -151,10 +151,10 @@
     .hero {
         &-image {
             top: -550px;
+            right: -130px;
 
             & img {
-                width: 250px;
-                height: 210px;
+                width: 350px;
             }
         }
 
@@ -241,6 +241,10 @@
 
 @media (max-width: 1880px) {
     .hero {
+        &-image {
+            top: -515px;
+        }
+
         &-image_arrow {
             top: -455px;
         }
@@ -258,12 +262,12 @@
 @media (max-width: 1480px) {
     .hero {
         &-image {
-            right: -25px;
-            top: -455px;
+            right: -55px;
+            top: -460px;
 
             & img {
-                width: 215px;
-                height: 180px;
+                width: 250px;
+                height: 205px;
             }
         }
 

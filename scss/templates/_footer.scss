@@ -4,11 +4,11 @@
     padding-bottom: 10px;
 
     &-box {
-        padding: 70px 5px 0 5px;
+        padding: 20px 5px 0 5px;
     }
 
     &-text {
-        margin-bottom: 50px;
+        margin-bottom: 20px;
         font-size: 16px;
         line-height: 21px;
         padding-right: 25px;
@@ -58,7 +58,7 @@
 @media (max-width: 1880px)  {
     .footer {
         &-box {
-            padding: 40px 5px 0 5px;
+            padding: 20px 5px 0 5px;
         }
     }
 }
@@ -84,7 +84,7 @@
         &-text {
             font-size: 12px;
             padding-right: 20px;
-            margin-bottom: 30px;
+            margin-bottom: 15px;
         }
     }
 }
@@ -98,7 +98,6 @@
         &-text {
             padding-right: 10px;
             font-size: 10px;
-            margin-bottom: 15px;
         }
 
         &-bottom {

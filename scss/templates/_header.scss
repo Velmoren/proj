@@ -2,7 +2,7 @@
   background-color: white;
   
   &_box {
-    padding: 33px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,19 +17,7 @@
 @media (max-width: 2100px) {
   .header {
     &_box {
-      padding: 43px;
-
-      & img {
-        width: 330px;
-      }
-    }
-  }
-}
-
-@media (max-width: 1880px) {
-  .header {
-    &_box {
-      padding: 30px;
+      padding: 10px;
 
       & img {
         width: 310px;
@@ -38,10 +26,22 @@
   }
 }
 
+@media (max-width: 1880px) {
+  .header {
+    &_box {
+      padding: 10px;
+
+      & img {
+        width: 290px;
+      }
+    }
+  }
+}
+
 @media (max-width: 1480px) {
   .header {
     &_box {
-      padding-top: 25px;
+      padding-top: 10px;
       padding-bottom: 10px;
 
       & img {
@@ -54,8 +54,8 @@
 @media (max-width: 768px) {
   .header {
     &_box {
-      padding-top: 30px;
-      padding-bottom: 19px;
+      padding-top: 10px;
+      padding-bottom: 10px;
 
       & img {
         width: 260px;
@@ -67,8 +67,8 @@
 @media (max-width: 479px) {
   .header {
     &_box {
-      padding-top: 17px;
-      padding-bottom: 17px;
+      padding-top: 10px;
+      padding-bottom: 10px;
 
       & img {
         width: 230px;
