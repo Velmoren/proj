@@ -1,0 +1,55 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../img/hero-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: $white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1250px;
+    width: 97%;
+    margin: 0 auto;
+}
+
+.orange-text {
+    color: $orange;
+}
+
+.yellow-text {
+    color: $yellow;
+}
+
+@media (max-width: 2100px) {
+    .container {
+        max-width: 800px;
+    }
+}
+
+@media (max-width: 1480px) {
+    .container {
+        max-width: 650px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 430px;
+    }
+}
+
+@media (max-width: 479px) {
+    .container {
+        max-width: 290px;
+    }
+}

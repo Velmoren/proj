@@ -1,0 +1,118 @@
+.footer {
+    background-color: $white;
+    color: $gray;
+    padding-bottom: 10px;
+
+    &-box {
+        padding: 70px 5px 0 5px;
+    }
+
+    &-text {
+        margin-bottom: 50px;
+        font-size: 16px;
+        line-height: 21px;
+        padding-right: 25px;
+        font-family: 'Helvetica Regular', sans-serif;
+    }
+
+    &-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Helvetica Regular', sans-serif;
+        align-items: flex-start;
+    }
+
+    &-controls {
+        display: flex;
+    }
+
+    & .footer-controls_vk {
+        background-image: url('../img/icons/vk.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 45px;
+        height: 45px;
+        margin-right: 5px;
+    }
+
+    & .footer-controls_facebook {
+        background-image: url('../img/icons/facebook.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 2100px) {
+    .footer {
+        &-text {
+            font-size: 12px;
+            line-height: 15px;
+            padding-right: 2px;
+        }
+    }
+}
+
+@media (max-width: 1880px)  {
+    .footer {
+        &-box {
+            padding: 40px 5px 0 5px;
+        }
+    }
+}
+
+@media (max-width: 1480px) {
+    .footer {
+        &-box {
+            padding: 25px 5px 0 5px;
+        }
+
+        &-text {
+            padding-right: 4px;
+            line-height: 14px;
+        }
+    }
+}
+
+  
+@media (max-width: 768px) {
+    .footer {
+        margin-top: 235px;
+
+        &-text {
+            font-size: 12px;
+            padding-right: 20px;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media (max-width: 479px) {
+    .footer {
+        &-box {
+            padding: 25px 5px 0 30px;
+        }
+        
+        &-text {
+            padding-right: 10px;
+            font-size: 10px;
+            margin-bottom: 15px;
+        }
+
+        &-bottom {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &-descr {
+            order: 2;
+        }
+
+        &-controls {
+            order: 1;
+            margin-bottom: 15px;
+        }
+    }
+}

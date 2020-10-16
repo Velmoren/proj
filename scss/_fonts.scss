@@ -1,0 +1,8 @@
+@import './_mixins/font-face';
+
+@include font-face("Helvetica Bold", "../fonts/Helvetica Bold/HelveticaBold");
+@include font-face("Helvetica Regular", "../fonts/Helvetica Regular/HelveticaRegular");
+@include font-face("Neutral Face Bold", "../fonts/Neutral Face Bold/NeutralFace-Bold");
+@include font-face("Neutral Face Regular", "../fonts/Neutral Face Regular/NeutralFace");
+@include font-face("HelveticaNeueCyr Bold", "../fonts/HelveticaNeueCyr Bold/HelveticaNeueCyr-Bold");
+@include font-face("HelveticaNeueCyr Regular", "../fonts/HelveticaNeueCyr Regular/NeutralFace");
